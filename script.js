@@ -4,8 +4,6 @@ const object = ['a man', 'a dog', 'a banana', 'a mermaid', 'Veerle', 'Salvatore'
 const verb = ['is eating', 'is jogging', 'is sleeping', 'is farting', 'is hunting', 'is reading', 'is washing'];
 const where = ['in bed', 'in a car', 'in the cinema', 'in de baarmoeder', 'in a plane', 'in Milos anus'];
 
-let newPhrase = []
-
 const selectRandomIndexOfArr = arr => {
     const randomPicker = Math.floor(Math.random() * arr.length);
     return arr[randomPicker];
